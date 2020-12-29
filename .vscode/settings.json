@@ -1,4 +1,3 @@
 {
-  "git.autoRepositoryDetection": false,
-  "git.enabled": false
+  "git.autoRepositoryDetection": false
 }
