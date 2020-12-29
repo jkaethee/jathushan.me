@@ -26,7 +26,7 @@ function AboutPage() {
           About
         </div>
         <div className="aboutBody">
-          Hey! I'm Jathushan and I'm a 3rd year student at the University of Waterloo studying Biomedical Engineering.
+          Hi! I'm Jathushan and I'm a 3rd year student at the University of Waterloo studying Biomedical Engineering.
           <br/>
           <p>
             My passions revolve around producing innovative solutions within the healthcare sector, and I'm always eager to tackle new challenges!

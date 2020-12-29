@@ -99,6 +99,7 @@
   font-weight: 600;
   font-family: 'Titillium Web', sans-serif;
   margin-left: 15%;
+  margin-right: 10%;
 }
 .img-text-wrapper:hover .subtitle {
   color: white;
@@ -318,8 +319,11 @@ footer {
 .footer-image {
   width: 10%;
 }
+#fullname {
+  display: initial;
+}
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1024px) {
   .img-text-wrapper .subtitle {
     transition: 0.5s;
     color: transparent;
@@ -404,5 +408,9 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
-  
+}
+@media only screen and (max-device-width: 420px) {
+  #fullname {
+    display: none;
+  }
 }

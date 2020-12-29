@@ -51,7 +51,7 @@ function ProjectsPage() {
           PreventCOVID
         </div>
         <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
-          A web application for collecting and emailing participant information for a COVID-19 research study led by <a href="https://www.uhnresearch.ca/researcher/deepali-kumar" target="_blank" rel="noopener noreferrer">Dr. Deepali Kumar</a>
+          A web application to collect and email participant information for a COVID-19 research study led by <a href="https://www.uhnresearch.ca/researcher/deepali-kumar" target="_blank" rel="noopener noreferrer">Dr. Deepali Kumar</a>
           <br />
           This project was designed under UHN for my Fall 2020 co-op term.
         </div>
@@ -74,7 +74,7 @@ function ProjectsPage() {
           <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
             A simple web application to visualize different convolutions by using unique image kernels.
             <br />
-            This application was a joint project with <a href="https://www.linkedin.com/in/averyryoo/" target="_blank" rel="noopener noreferrer">Avery Ryoo</a> until December 2020.
+            This application was a joint project with <a href="https://www.linkedin.com/in/averyryoo/" target="_blank" rel="noopener noreferrer">Avery Ryoo</a> completed in December 2020.
           </div>
           <div style={{ fontSize: '20px', fontStyle: 'italic'}} className="project-specs">
             <b>Web Dev</b>: Python, Flask, HTML, Bulma
