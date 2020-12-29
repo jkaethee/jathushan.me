@@ -131,7 +131,6 @@
   display: 'flex';
   justify-content: 'center';
 }
-
 .project-panel-description {
   font-size: 2.0em; 
   font-family: 'Titillium Web', sans-serif;
@@ -139,6 +138,9 @@
   flex-flow: column;
   justify-content: center;
   padding: 0px 25px;
+}
+.mobile-flip-div {
+  display: contents;
 }
 .image-gallery-slide {
   width: 100%;
