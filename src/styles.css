@@ -318,6 +318,14 @@ footer {
 }
 
 @media only screen and (max-device-width: 480px) {
+  .img-text-wrapper .subtitle {
+    transition: 0.5s;
+    color: transparent;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 15%;
+  }
   /* NavBar Styling */
   .nav-wrapper {
     display: flex;
@@ -394,4 +402,5 @@ footer {
     display: flex;
     flex-direction: column-reverse;
   }
+  
 }

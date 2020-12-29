@@ -21,7 +21,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_1" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Jurassic Park (1993)
+              Jurassic Park
+              <p>(1993)</p>
             </div>
           </div>
         </div>
@@ -31,7 +32,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_2" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Good Will Hunting (1997)
+              Good Will Hunting
+              <p>(1997)</p>
             </div>
           </div>
         </div>
@@ -41,7 +43,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_3" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Whisper of the Heart (1995)
+              Whisper of the Heart
+              <p>(1995)</p>
             </div>
           </div>
         </div>
@@ -51,7 +54,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_4" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Akira (1988)
+              Akira
+              <p>(1998)</p>
             </div>
           </div>
         </div>
@@ -61,7 +65,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_5" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Burning (2018)
+              Burning
+              <p>(2018)</p>
             </div>
           </div>
         </div>
@@ -71,7 +76,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_6" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              The Pursuit of Happyness (2006)
+              The Pursuit of Happyness
+              <p>(2006)</p>
             </div>
           </div>
         </div>
@@ -81,7 +87,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_7" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              A Silent Voice (2016)
+              A Silent Voice
+              <p>(2016)</p>
             </div>
           </div>
         </div>
@@ -91,7 +98,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_8" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Ocean Waves (1993)
+              Ocean Waves
+              <p>(1993)</p>
             </div>
           </div>
         </div>
@@ -101,7 +109,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_9" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Parasite (2019)
+              Parasite
+              <p>(2019)</p>
             </div>
           </div>
         </div>
@@ -111,7 +120,8 @@ function CinemaPage() {
           <div className="cinema-panels cinema-panel_10" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Creed (2015)
+              Creed
+              <p>(2015)</p>
             </div>
           </div>
         </div>
