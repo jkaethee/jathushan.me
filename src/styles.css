@@ -126,6 +126,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.project-panel-description-title {
+  font-weight: 'bold';
+  display: 'flex';
+  justify-content: 'center';
+}
+
 .project-panel-description {
   font-size: 2.0em; 
   font-family: 'Titillium Web', sans-serif;
@@ -182,7 +188,7 @@
   background-image: url(./images/cinema.jpg);
 }
 
-/*Cinema style*/
+/*Music style*/
 .music-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -309,4 +315,83 @@ footer {
 }
 .footer-image {
   width: 10%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* NavBar Styling */
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.0em;
+  }
+  .nav-link-wrapper:hover {
+    border-bottom: 1px white;
+  }
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  .nav-link-wrapper {
+    margin-right: 10px;
+  }
+  .active-nav-link {
+    border-bottom: 1px white;
+  }
+  
+  .active-nav-link a {
+    color: white !important;
+  }
+  #project-link #fullname {
+    display: none;
+  }
+
+  /* Project styles */
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /*Gallery style*/
+  .play-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /*Cinema style*/
+  .music-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /*Cinema style*/
+  .cinema-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /*About styles */
+  .aboutContainer {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+  }
+  /* Project styles */
+  .project-panels-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #F3F5FF;
+  }
+  .project-panel-description-title {
+    font-weight: 'bold';
+    display: 'flex';
+    justify-content: 'center';
+    font-size: 0.9em;
+    font-family: 'Titillium Web', sans-serif;
+  }
+  .project-specs {
+    display: none;
+  }
+  .mobile-flip-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

@@ -45,7 +45,7 @@ function NavBar() {
             <i className="fa fa-github" style={{ color:"black" }} title="Github"/> 
           </a>
         </div>
-        <div>JATHUSHAN KAETHEESWARAN</div>
+        <div id="fullname">JATHUSHAN KAETHEESWARAN</div>
       </div>
     </div>
   )

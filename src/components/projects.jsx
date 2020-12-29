@@ -47,7 +47,7 @@ function ProjectsPage() {
         <ImageGallery items={prevent_covid_app} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
       </div>
       <div className="project-panel-description">
-        <div style={{ fontWeight: 'bold', display: 'flex', justifyContent: 'center' }}>
+        <div className="project-panel-description-title">
           PreventCOVID
         </div>
         <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
@@ -55,42 +55,42 @@ function ProjectsPage() {
           <br />
           This project was designed under UHN for my Fall 2020 co-op term.
         </div>
-        <div style={{ fontSize: '20px', fontStyle: 'italic'}}>
+        <div style={{ fontSize: '20px', fontStyle: 'italic'}} className="project-specs">
           <b>Web Dev</b>: JS, React, Express, Feathers, Webpack, PostgreSQL, Material-UI
           <br />
           <b>Tools</b>: Docker, Postman, MailHog, reCAPTCHA
         </div>
       </div>
-
-      <div className="project-panel-description">
-        <div style={{ fontWeight: 'bold', display: 'flex', justifyContent: 'center' }}>
-          Image Convolution Visualizer
-          <div className="social-icon"> 
-            <a href="https://github.com/jkaethee/Image-Convolution-Visualizer" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-github" style={{ color:"black", padding: '15px' }} title="Github"/> 
-            </a>
+      <div className="mobile-flip-div">
+        <div className="project-panel-description">
+          <div className="project-panel-description-title">
+            Image Convolution Visualizer
+            <div className="social-icon"> 
+              <a href="https://github.com/jkaethee/Image-Convolution-Visualizer" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github" style={{ color:"black", padding: '15px' }} title="Github"/> 
+              </a>
+            </div>
+          </div>
+          <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
+            A simple web application to visualize different convolutions by using unique image kernels.
+            <br />
+            This application was a joint project with <a href="https://www.linkedin.com/in/averyryoo/" target="_blank" rel="noopener noreferrer">Avery Ryoo</a> until December 2020.
+          </div>
+          <div style={{ fontSize: '20px', fontStyle: 'italic'}} className="project-specs">
+            <b>Web Dev</b>: Python, Flask, HTML, Bulma
+            <br />
+            <b>Libraries</b>: NumPy, OpenCV, Scikit-image, Python Imaging Library (PIL)
           </div>
         </div>
-        <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
-          A simple web application to visualize different convolutions by using unique image kernels.
-          <br />
-          This application is a joint project with <a href="https://www.linkedin.com/in/averyryoo/" target="_blank" rel="noopener noreferrer">Avery Ryoo</a> during Spring 2020.
-        </div>
-        <div style={{ fontSize: '20px', fontStyle: 'italic'}}>
-          <b>Web Dev</b>: Python, Flask, HTML, Bulma
-          <br />
-          <b>Libraries</b>: NumPy, OpenCV, Scikit-image, Python Imaging Library (PIL)
+        <div className="project-panel-wrapper">
+          <ImageGallery items={image_conv_app} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
         </div>
       </div>
-      <div className="project-panel-wrapper">
-        <ImageGallery items={image_conv_app} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
-      </div>
-
       <div className="project-panel-wrapper" >
         <ImageGallery items={weather_app} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
       </div>
       <div className="project-panel-description">
-        <div style={{ fontWeight: 'bold', display: 'flex', justifyContent: 'center' }}>
+        <div className="project-panel-description-title">
           Weather App
           <div className="social-icon"> 
             <a href="https://github.com/jkaethee/Flask-Weather-App" target="_blank" rel="noopener noreferrer">
@@ -103,7 +103,7 @@ function ProjectsPage() {
           <br />
           This app was an introductory project for Python web development and relational database work.
         </div>
-        <div style={{ fontSize: '20px', fontStyle: 'italic'}}>
+        <div style={{ fontSize: '20px', fontStyle: 'italic'}} className="project-specs">
           <b>Web Dev</b>: Python, Flask, SQLAlchemy, SQLite, HTML, Bulma
         </div>
       </div>
