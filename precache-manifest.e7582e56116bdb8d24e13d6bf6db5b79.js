@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "049caa73897c6c69c920d14dd535bc83",
+    "revision": "64aabc0e1ae4e4cd3b1409a2b664a661",
     "url": "/jathushan.me/index.html"
   },
   {
-    "revision": "0ac5b80aa326716f3939",
+    "revision": "fe3af55b98d1e5f7369a",
     "url": "/jathushan.me/static/css/2.017fd2fc.chunk.css"
   },
   {
-    "revision": "a481fa83697ba9e3b02b",
+    "revision": "3f3685ad130891d8b3db",
     "url": "/jathushan.me/static/css/main.899478e0.chunk.css"
   },
   {
-    "revision": "0ac5b80aa326716f3939",
-    "url": "/jathushan.me/static/js/2.f8b3bd63.chunk.js"
+    "revision": "fe3af55b98d1e5f7369a",
+    "url": "/jathushan.me/static/js/2.25e7db76.chunk.js"
   },
   {
     "revision": "8d190e2d02f8e768921a63f56a741895",
-    "url": "/jathushan.me/static/js/2.f8b3bd63.chunk.js.LICENSE.txt"
+    "url": "/jathushan.me/static/js/2.25e7db76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a481fa83697ba9e3b02b",
-    "url": "/jathushan.me/static/js/main.32b44023.chunk.js"
+    "revision": "3f3685ad130891d8b3db",
+    "url": "/jathushan.me/static/js/main.b2d5ec6f.chunk.js"
   },
   {
     "revision": "785782a68f6074320f14",
