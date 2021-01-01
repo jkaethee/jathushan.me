@@ -14,22 +14,11 @@ import Gallery from './components/gallery.jsx'
 import Music from './components/music.jsx'
 import Cinema from './components/cinema.jsx'
 import footerImage from './images/footer-image.png'
-import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
-
-const history = createBrowserHistory();
-
-// Initialize google analytics page view tracking
-ReactGA.initialize("G-7PKVJ9QW1E");
-history.listen(location => {
-  ReactGA.set({ page: location.pathname }); // Update the user's current page
-  ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
 
 function App() {
   return (
     <div className="App" style={{ }}>
-      <Router history={history}>
+      <Router>
         <NavBar />
           <Switch>
             <Route path='/home' component={Home} />
