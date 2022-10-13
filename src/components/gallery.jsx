@@ -25,7 +25,7 @@ function GalleryPage() {
       <div className="play-items-wrapper">
         <div className="play-item-wrapper" 
           onClick={onMusicClick}
-          onMouseEnter={() => imageDarken('play-panels music-panel_play')}
+          onMouseOver={() => imageDarken('play-panels music-panel_play')}
           onMouseLeave={() => imageLighten('play-panels music-panel_play')}>
           <div className="play-panels music-panel_play" />
           <div className="img-text-wrapper">
@@ -37,7 +37,7 @@ function GalleryPage() {
         </div>
         <div className="play-item-wrapper" 
           onClick={onCinemaClick}
-          onMouseEnter={() => imageDarken('play-panels cinema-panel_play')}
+          onMouseOver={() => imageDarken('play-panels cinema-panel_play')}
           onMouseLeave={() => imageLighten('play-panels cinema-panel_play')}>
           <div className="play-panels cinema-panel_play" />
           <div className="img-text-wrapper">

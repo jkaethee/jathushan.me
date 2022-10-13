@@ -209,16 +209,16 @@
   background-repeat: no-repeat;
 }
 .music-panel_1 {
-  background-image: url(./images/music-pics/trapsoul.jpeg);
+  background-image: url(./images/music-pics/anniversary.png);
 }
 .music-panel_2 {
-  background-image: url(./images/music-pics/palette.jpg);
+  background-image: url(./images/music-pics/immunity.png);
 }
 .music-panel_3 {
   background-image: url(./images/music-pics/boogie.jpg);
 }
 .music-panel_4 {
-  background-image: url(./images/music-pics/tear.jpg);
+  background-image: url(./images/music-pics/tfs.jpg);
 }
 .music-panel_5 {
   background-image: url(./images/music-pics/6lack.jpg);
@@ -233,10 +233,16 @@
   background-image: url(./images/music-pics/case.jpg);
 }
 .music-panel_9 {
-  background-image: url(./images/cinema-pics/parasite.jpg);
+  background-image: url(./images/music-pics/psychodrama.jpeg);
 }
 .music-panel_10 {
-  background-image: url(./images/cinema-pics/creed.jpg);
+  background-image: url(./images/music-pics/cinema.jpg);
+}
+.music-panel_11 {
+  background-image: url(./images/music-pics/stormzy.jpg);
+}
+.music-panel_12 {
+  background-image: url(./images/music-pics/wizkid.jpg);
 }
 
 /*Cinema style*/

@@ -16,7 +16,7 @@ function CinemaPage() {
     <div>
       <div className="cinema-items-wrapper">
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_1')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_1')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_1')}>
           <div className="cinema-panels cinema-panel_1" />
           <div className="img-text-wrapper">
@@ -27,7 +27,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_2')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_2')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_2')}>
           <div className="cinema-panels cinema-panel_2" />
           <div className="img-text-wrapper">
@@ -38,7 +38,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_3')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_3')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_3')}>
           <div className="cinema-panels cinema-panel_3" />
           <div className="img-text-wrapper">
@@ -49,7 +49,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_4')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_4')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_4')}>
           <div className="cinema-panels cinema-panel_4" />
           <div className="img-text-wrapper">
@@ -60,7 +60,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_5')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_5')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_5')}>
           <div className="cinema-panels cinema-panel_5" />
           <div className="img-text-wrapper">
@@ -71,7 +71,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_6')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_6')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_6')}>
           <div className="cinema-panels cinema-panel_6" />
           <div className="img-text-wrapper">
@@ -82,7 +82,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_7')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_7')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_7')}>
           <div className="cinema-panels cinema-panel_7" />
           <div className="img-text-wrapper">
@@ -93,7 +93,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_8')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_8')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_8')}>
           <div className="cinema-panels cinema-panel_8" />
           <div className="img-text-wrapper">
@@ -104,7 +104,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_9')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_9')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_9')}>
           <div className="cinema-panels cinema-panel_9" />
           <div className="img-text-wrapper">
@@ -115,7 +115,7 @@ function CinemaPage() {
           </div>
         </div>
         <div className="cinema-item-wrapper" 
-          onMouseEnter={() => imageDarken('cinema-panels cinema-panel_10')}
+          onMouseOver={() => imageDarken('cinema-panels cinema-panel_10')}
           onMouseLeave={() => imageLighten('cinema-panels cinema-panel_10')}>
           <div className="cinema-panels cinema-panel_10" />
           <div className="img-text-wrapper">

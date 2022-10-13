@@ -16,29 +16,29 @@ function MusicPage() {
     <div>
       <div className="music-items-wrapper">
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_1')}
+          onMouseOver={() => imageDarken('music-panels music-panel_1')}
           onMouseLeave={() => imageLighten('music-panels music-panel_1')}>
           <div className="music-panels music-panel_1" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Trapsoul
+              Anniversary
               <p> Bryson Tiller</p>
             </div>
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_2')}
+          onMouseOver={() => imageDarken('music-panels music-panel_2')}
           onMouseLeave={() => imageLighten('music-panels music-panel_2')}>
           <div className="music-panels music-panel_2" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Palette
-              <p>IU</p>
+              Immunity
+              <p>Clairo</p>
             </div>
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_3')}
+          onMouseOver={() => imageDarken('music-panels music-panel_3')}
           onMouseLeave={() => imageLighten('music-panels music-panel_3')}>
           <div className="music-panels music-panel_3" />
           <div className="img-text-wrapper">
@@ -49,18 +49,18 @@ function MusicPage() {
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_4')}
+          onMouseOver={() => imageDarken('music-panels music-panel_4')}
           onMouseLeave={() => imageLighten('music-panels music-panel_4')}>
           <div className="music-panels music-panel_4" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              LY: Tear
-              <p>BTS</p>
+              The Forever Story
+              <p>JID</p>
             </div>
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_5')}
+          onMouseOver={() => imageDarken('music-panels music-panel_5')}
           onMouseLeave={() => imageLighten('music-panels music-panel_5')}>
           <div className="music-panels music-panel_5" />
           <div className="img-text-wrapper">
@@ -71,7 +71,7 @@ function MusicPage() {
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_6')}
+          onMouseOver={() => imageDarken('music-panels music-panel_6')}
           onMouseLeave={() => imageLighten('music-panels music-panel_6')}>
           <div className="music-panels music-panel_6" />
           <div className="img-text-wrapper">
@@ -82,7 +82,7 @@ function MusicPage() {
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_7')}
+          onMouseOver={() => imageDarken('music-panels music-panel_7')}
           onMouseLeave={() => imageLighten('music-panels music-panel_7')}>
           <div className="music-panels music-panel_7" />
           <div className="img-text-wrapper">
@@ -93,13 +93,57 @@ function MusicPage() {
           </div>
         </div>
         <div className="music-item-wrapper"
-          onMouseEnter={() => imageDarken('music-panels music-panel_8')}
+          onMouseOver={() => imageDarken('music-panels music-panel_8')}
           onMouseLeave={() => imageLighten('music-panels music-panel_8')}>
           <div className="music-panels music-panel_8" />
           <div className="img-text-wrapper">
             <div className="subtitle">
               CASE STUDY 01
               <p>Daniel Caesar</p>
+            </div>
+          </div>
+        </div>
+        <div className="music-item-wrapper"
+          onMouseOver={() => imageDarken('music-panels music-panel_9')}
+          onMouseLeave={() => imageLighten('music-panels music-panel_9')}>
+          <div className="music-panels music-panel_9" />
+          <div className="img-text-wrapper">
+            <div className="subtitle">
+              Psychodrama
+              <p>Dave</p>
+            </div>
+          </div>
+        </div>
+        <div className="music-item-wrapper"
+          onMouseOver={() => imageDarken('music-panels music-panel_10')}
+          onMouseLeave={() => imageLighten('music-panels music-panel_10')}>
+          <div className="music-panels music-panel_10" />
+          <div className="img-text-wrapper">
+            <div className="subtitle">
+              Cinema
+              <p>The Marías</p>
+            </div>
+          </div>
+        </div>
+        <div className="music-item-wrapper"
+          onMouseOver={() => imageDarken('music-panels music-panel_11')}
+          onMouseLeave={() => imageLighten('music-panels music-panel_11')}>
+          <div className="music-panels music-panel_11" />
+          <div className="img-text-wrapper">
+            <div className="subtitle">
+              Heavy Is The Head
+              <p>Stormzy</p>
+            </div>
+          </div>
+        </div>
+        <div className="music-item-wrapper"
+          onMouseOver={() => imageDarken('music-panels music-panel_12')}
+          onMouseLeave={() => imageLighten('music-panels music-panel_12')}>
+          <div className="music-panels music-panel_12" />
+          <div className="img-text-wrapper">
+            <div className="subtitle">
+              Made in Lagos
+              <p>Wizkid</p>
             </div>
           </div>
         </div>
