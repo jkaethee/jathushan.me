@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/jathushan.me/static/css/main.5bd70b08.chunk.css",
+    "main.js": "/jathushan.me/static/js/main.3d05352f.chunk.js",
+    "main.js.map": "/jathushan.me/static/js/main.3d05352f.chunk.js.map",
+    "runtime-main.js": "/jathushan.me/static/js/runtime-main.f4f9494e.js",
+    "runtime-main.js.map": "/jathushan.me/static/js/runtime-main.f4f9494e.js.map",
+    "static/css/2.b409db89.chunk.css": "/jathushan.me/static/css/2.b409db89.chunk.css",
+    "static/js/2.25e7db76.chunk.js": "/jathushan.me/static/js/2.25e7db76.chunk.js",
+    "static/js/2.25e7db76.chunk.js.map": "/jathushan.me/static/js/2.25e7db76.chunk.js.map",
+    "index.html": "/jathushan.me/index.html",
+    "precache-manifest.6caff5fd32b6bcc2d6095c01821df846.js": "/jathushan.me/precache-manifest.6caff5fd32b6bcc2d6095c01821df846.js",
+    "service-worker.js": "/jathushan.me/service-worker.js",
+    "static/css/2.b409db89.chunk.css.map": "/jathushan.me/static/css/2.b409db89.chunk.css.map",
+    "static/css/main.5bd70b08.chunk.css.map": "/jathushan.me/static/css/main.5bd70b08.chunk.css.map",
+    "static/js/2.25e7db76.chunk.js.LICENSE.txt": "/jathushan.me/static/js/2.25e7db76.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/jathushan.me/static/media/work-area.8c96ffd8.jpg",
+    "static/media/about1.jpg": "/jathushan.me/static/media/about1.4e848048.jpg",
+    "static/media/about2.jpg": "/jathushan.me/static/media/about2.8b85f038.jpg",
+    "static/media/about3.jpg": "/jathushan.me/static/media/about3.156fcabb.jpg",
+    "static/media/conv-2.png": "/jathushan.me/static/media/conv-2.29217a3b.png",
+    "static/media/font-awesome.min.css": "/jathushan.me/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/footer-image.png": "/jathushan.me/static/media/footer-image.720bb3ca.png",
+    "static/media/image convolution examples.PNG": "/jathushan.me/static/media/image convolution examples.3e09d0c2.PNG",
+    "static/media/prevent covid app 2.PNG": "/jathushan.me/static/media/prevent covid app 2.ce3bb4dc.PNG",
+    "static/media/prevent covid app.PNG": "/jathushan.me/static/media/prevent covid app.62ecfeb1.PNG",
+    "static/media/resume.pdf": "/jathushan.me/static/media/resume.781f09f2.pdf",
+    "static/media/weather app 2.PNG": "/jathushan.me/static/media/weather app 2.c269ade7.PNG",
+    "static/media/weather app.png": "/jathushan.me/static/media/weather app.1c1ec40c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4f9494e.js",
+    "static/css/2.b409db89.chunk.css",
+    "static/js/2.25e7db76.chunk.js",
+    "static/css/main.5bd70b08.chunk.css",
+    "static/js/main.3d05352f.chunk.js"
+  ]
+}
