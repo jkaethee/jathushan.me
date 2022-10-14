@@ -26,11 +26,11 @@ function AboutPage() {
           About
         </div>
         <div className="aboutBody">
-          Hi! I'm Jathushan and I'm a 3rd year student at the University of Waterloo studying Biomedical Engineering.
+          Hello! I'm Jathushan and I'm a 4th year student at the University of Waterloo studying Biomedical Engineering.
           <br/>
           <p>
-            My passions revolve around producing innovative solutions within the healthcare sector, and I'm always eager to tackle new challenges!
-            Outside of my work life, I am interested in all forms of media: music, film, print, etc. I am also an avid NBA and (more recently) NFL fan, and love to partake in sports and athletics<span aria-label="smiley" role="img">😃</span>
+            My passions revolve around producing innovative solutions within the healthcare sector, and I'm always eager to tackle new challenges! I have extensive experience as a Full Stack Developer at several biotech companies and hospitals, and am currently looking for full-time post-grad opportunities.
+            Outside of my work and school life, I am interested in all forms of media: music, film, print, etc. I am also an avid NBA and (more recently) NFL fan, and love to partake in sports and athletics<span aria-label="smiley" role="img">😃</span>
           </p>
         </div>
       </div>
