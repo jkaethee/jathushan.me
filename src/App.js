@@ -10,10 +10,11 @@ import NavBar from './components/navBar.jsx'
 import Home from './components/home.jsx'
 import About from './components/about.jsx'
 import Projects from './components/projects.jsx'
+import Research from './components/research.jsx'
 import Gallery from './components/gallery.jsx'
 import Music from './components/music.jsx'
 import Cinema from './components/cinema.jsx'
-import footerImage from './images/footer-image.png'
+import footerImage from './images/footer-image-2.svg'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/home' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/projects' component={Projects} />
+            <Route path='/research' component={Research} />
             <Route path='/gallery' component={Gallery} />
             <Route path='/music' component={Music} />
             <Route path='/cinema' component={Cinema} />

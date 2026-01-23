@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles.css';
 import { useHistory } from 'react-router-dom';
-import resume from '../resume.pdf'
+import resume from '../resume_2024.pdf'
 
 const imageDarken = (className) => {
   const item = document.getElementsByClassName(className);
@@ -22,18 +22,33 @@ function HomePage() {
   function onProjectsClick() {
     history.push('/projects');
   }
+  function onResearchClick() {
+    history.push('/research');
+  }
 
   return (
     <div className="content-wrapper">
       <div className="portfolio-items-wrapper">
         <div className="portfolio-item-wrapper" 
-          onClick={onPlayClick}
-          onMouseEnter={() => imageDarken('portfolio-panels play-panel_home')}
-          onMouseLeave={() => imageLighten('portfolio-panels play-panel_home')}>
-          <div className="portfolio-panels play-panel_home" />
+          onClick={onResearchClick} 
+          onMouseEnter={() => imageDarken('portfolio-panels research-panel_home')}
+          onMouseLeave={() => imageLighten('portfolio-panels research-panel_home')}>
+          <div className="portfolio-panels research-panel_home" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Gallery
+              Research
+            </div>
+         </div>
+        </div>
+
+        <div className="portfolio-item-wrapper" 
+          onClick={onProjectsClick} 
+          onMouseEnter={() => imageDarken('portfolio-panels project-panel_home')}
+          onMouseLeave={() => imageLighten('portfolio-panels project-panel_home')}>
+          <div className="portfolio-panels project-panel_home" />
+          <div className="img-text-wrapper">
+            <div className="subtitle">
+              Projects
             </div>
           </div>
         </div>
@@ -49,13 +64,13 @@ function HomePage() {
           </div>
         </div>
         <div className="portfolio-item-wrapper" 
-          onClick={onProjectsClick} 
-          onMouseEnter={() => imageDarken('portfolio-panels project-panel_home')}
-          onMouseLeave={() => imageLighten('portfolio-panels project-panel_home')}>
-          <div className="portfolio-panels project-panel_home" />
+          onClick={onPlayClick}
+          onMouseEnter={() => imageDarken('portfolio-panels play-panel_home')}
+          onMouseLeave={() => imageLighten('portfolio-panels play-panel_home')}>
+          <div className="portfolio-panels play-panel_home" />
           <div className="img-text-wrapper">
             <div className="subtitle">
-              Projects
+              Gallery
             </div>
           </div>
         </div>

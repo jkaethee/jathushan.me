@@ -9,6 +9,10 @@ import weather1 from '../images/weather app.png'
 import weather2 from '../images/weather app 2.PNG'
 import pc1 from '../images/prevent covid app.PNG'
 import pc2 from '../images/prevent covid app 2.PNG'
+import tp1 from '../images/topaz_3.0_1.png'
+import tp2 from '../images/topaz_3.0_2.png'
+import hw1 from '../images/heart-watch-1.png'
+import hw2 from '../images/heart-watch-2.png'
 
 const image_conv_app = [
   {
@@ -40,9 +44,71 @@ const prevent_covid_app = [
     description: 'Responsive error handling and reCAPTCHA implementation'
   }
 ]
+const topaz_photo = [
+  {
+    original: tp1,
+    description: 'Dynamic and flexible cross-platform UI development with Qt'
+  },
+  {
+    original: tp2,
+    description: 'Modern image selection tools paired with AI-powered filters using performant C++ code'
+  }
+]
+
+const heart_watch = [
+  {
+    original: hw1,
+    description: 'Asychronous smartwatch sensor collection using background threads'
+  },
+  {
+    original: hw2,
+    description: 'Sychronized, raw multimodal signal collection from a diverse cohort'
+  }
+]
 function ProjectsPage() {
   return (
     <div className="project-panels-wrapper"> 
+      <div className="project-panel-wrapper" >
+        <ImageGallery items={heart_watch} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
+      </div>
+    <div className="project-panel-description">
+        <div className="project-panel-description-title">
+          HEART-Watch
+        </div>
+        <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
+          Engineered a custom Android application to interface with ECG, PGG, and ACC sensors on a Google Pixel Watch to record raw sensor readouts. Designed an offline data collection system to avoid firewall and latency restrictions through Kotlin Coroutines and Room!
+          <br />
+          This smartwatch application was used to develop the HEART-Watch dataset <a href="https://www.researchgate.net/publication/398313350_HEART-Watch_A_multimodal_physiological_dataset_from_a_Google_Pixel_Watch_across_different_physical_states" target="_blank" rel="noopener noreferrer">(paper under review)</a>.
+          <br />
+        </div>
+        <div style={{ fontSize: '20px', fontStyle: 'italic'}} className="project-specs">
+          <b>Android App</b>: Kotlin, Python
+          <br />
+          <b>Tools</b>: Android Studio, Arduino Uno
+        </div>
+      </div>
+
+      <div className="project-panel-description">
+        <div className="project-panel-description-title">
+          Topaz Photo AI 
+        </div>
+        <div style={{ fontSize: '18px', padding: '10px 0 20px 0' }}>
+          The main software engineer behind several major rewrites for Windows and Mac desktop applications to perform dynamic image editing.
+          <br />
+          Triaged, developed, and deployed public weekly/biweekly releases for 100k+ weekly active users.
+          <br />
+          <a href="https://community.topazlabs.com/c/photo-ai/photo-ai-releases/85" target="_blank" rel="noopener noreferrer">You can search for my name in the release forums!</a>
+        </div>
+        <div style={{ fontSize: '20px', fontStyle: 'italic'}} className="project-specs">
+          <b>Desktop App</b>: QML, C++
+          <br />
+          <b>Tools</b>: Qt Framework
+        </div>
+      </div>
+      <div className="project-panel-wrapper" >
+        <ImageGallery items={topaz_photo} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
+      </div>
+
       <div className="project-panel-wrapper" >
         <ImageGallery items={prevent_covid_app} showFullscreenButton={false} showPlayButton={false} showThumbnails={false} showBullets={true} />
       </div>

@@ -82,6 +82,9 @@
 .project-panel_home {
   background-image: url(./images/project-pic.jpg);
 }
+.research-panel_home {
+  background-image: url(./images/research-pic.jpg);
+}
 .img-text-wrapper {
   position: absolute;
   top: 0;
@@ -245,6 +248,47 @@
   background-image: url(./images/music-pics/wizkid.jpg);
 }
 
+/*Research style*/
+.research-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.research-item-wrapper {
+  position: relative;
+  padding: 19px;
+}
+.research-panels {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.research-subheader-wrapper {
+    display: flex;
+    margin-left: 19px;
+    justify-content: space-between;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5em;
+    text-decoration: underline;
+
+}
+.research-panel_1 {
+  background-image: url(./images/research-pics/research_1.png);
+}
+.research-panel_2 {
+  background-image: url(./images/research-pics/research_2.jpg);
+}
+.research-panel_3 {
+  background-image: url(./images/research-pics/research_3.jpg);
+}
+.research-unpub-panel_1 {
+  background-image: url(./images/research-pics/sleep.jpg);
+}
+.research-unpub-panel_2 {
+  background-image: url(./images/research-pics/telerehab.jpg);
+}
+
 /*Cinema style*/
 .cinema-items-wrapper {
   display: grid;
@@ -302,24 +346,24 @@
   margin: auto;
 }
 .aboutHeader {
-  font-size: 1.5em; 
+  font-size: 2.0em; 
   font-family: 'Titillium Web', sans-serif;
   text-decoration: underline;
   padding-bottom: 15px;
 }
 .aboutBody {
-  font-size: 1.0em; 
+  font-size: 1.3em; 
   font-family: 'Titillium Web', sans-serif;
 }
 
 /*Footer styles*/
 footer {
-  padding-top: 10px;
+  padding: 30px;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em; 
+  font-size: 2.0em; 
   font-family: 'Titillium Web', sans-serif;
 }
 .footer-image {

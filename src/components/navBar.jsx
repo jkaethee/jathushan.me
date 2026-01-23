@@ -2,7 +2,7 @@ import React from "react"
 import '../styles.css'
 import 'font-awesome/css/font-awesome.min.css'
 import { Link, useLocation } from 'react-router-dom'
-import resume from '../resume.pdf'
+import resume from '../resume_2024.pdf'
 
 function NavBar() {
   const location = useLocation()
@@ -25,13 +25,18 @@ function NavBar() {
             PROJECTS
           </Link>
         </div>
+        <div className="nav-link-wrapper">
+          <Link to="/research" id="research-link" className={activeClass('/research')}> 
+            RESEARCH
+          </Link>
+        </div>
       </div>
       <div className="right-side">
         <div className="social-icon" onClick={()=>{window.open(resume)}} style={{cursor: "pointer"}}> 
             <i className = "fa fa-paperclip" style={{ color:"black" }} title="Resume"/>  
         </div>
         <div className="social-icon"> 
-          <a href="mailto:jkaethee@uwaterloo.ca">
+          <a href="mailto:jathushan.kaetheeswaran@mail.utoronto.ca">
             <i className = "fa fa-envelope" style={{ color:"black" }} title="Email"/> 
           </a>  
         </div>
