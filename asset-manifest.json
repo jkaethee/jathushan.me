@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jathushan.me/static/css/main.43a22cb7.css",
-    "main.js": "/jathushan.me/static/js/main.8e3c1f56.js",
+    "main.js": "/jathushan.me/static/js/main.8a0edc40.js",
     "static/media/silent.jpg": "/jathushan.me/static/media/silent.6532ac467ea0a5e71cac.jpg",
     "static/media/research_3.jpg": "/jathushan.me/static/media/research_3.f98c572d46a32b044017.jpg",
     "static/media/telerehab.jpg": "/jathushan.me/static/media/telerehab.015c5efc8590f0ffa7ca.jpg",
@@ -53,10 +53,10 @@
     "static/media/case.jpg": "/jathushan.me/static/media/case.e71374ee2ac4d881fb08.jpg",
     "index.html": "/jathushan.me/index.html",
     "main.43a22cb7.css.map": "/jathushan.me/static/css/main.43a22cb7.css.map",
-    "main.8e3c1f56.js.map": "/jathushan.me/static/js/main.8e3c1f56.js.map"
+    "main.8a0edc40.js.map": "/jathushan.me/static/js/main.8a0edc40.js.map"
   },
   "entrypoints": [
     "static/css/main.43a22cb7.css",
-    "static/js/main.8e3c1f56.js"
+    "static/js/main.8a0edc40.js"
   ]
 }
