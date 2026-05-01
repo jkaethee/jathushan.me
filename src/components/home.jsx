@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles.css';
 import { useHistory } from 'react-router-dom';
-import resume from '../resume_2024.pdf'
+import resume from '../resume.pdf'
 
 const imageDarken = (className) => {
   const item = document.getElementsByClassName(className);

@@ -2,7 +2,7 @@ import React from "react"
 import '../styles.css'
 import 'font-awesome/css/font-awesome.min.css'
 import { Link, useLocation } from 'react-router-dom'
-import resume from '../resume_2024.pdf'
+import resume from '../resume.pdf'
 
 function NavBar() {
   const location = useLocation()

@@ -17,6 +17,19 @@ function ResearchPage() {
         <div className="research-subheader-wrapper">Published/Under Review</div>
         <div className="research-items-wrapper">
             <div className="research-item-wrapper" 
+            onMouseOver={() => imageDarken('research-panels research-panel_3')}
+            onMouseLeave={() => imageLighten('research-panels research-panel_3')}>
+                <a href="https://www.neuromodulationjournal.org/article/S1094-7159(26)00029-2/fulltext" target="_blank" rel="noopener noreferrer">
+                    <div className="research-panels research-panel_3"/>
+                    <div className="img-text-wrapper">
+                            <div className="subtitle">
+                            Rapid Review of Task-Based Outcomes using Low-Intensity Focused Transcranial Ultrasound Neuromodulation on Humans and Primates
+                            <p>March 2026</p>
+                            </div>
+                    </div>
+                </a>
+            </div>
+            <div className="research-item-wrapper" 
             onMouseOver={() => imageDarken('research-panels research-panel_1')}
             onMouseLeave={() => imageLighten('research-panels research-panel_1')}>
             <a href="https://mhealth.jmir.org/2025/1/e73846" target="_blank" rel="noopener noreferrer">
@@ -24,7 +37,7 @@ function ResearchPage() {
                 <div className="img-text-wrapper">
                         <div className="subtitle">
                         AI-Driven Real-Time Monitoring of Cardiovascular Conditions With Wearable Devices: Scoping Review
-                        <p>March 2025</p>
+                        <p>November 2025</p>
                         </div>
                 </div>
             </a>
@@ -41,17 +54,6 @@ function ResearchPage() {
                         </div>
                 </div>
             </a>
-            </div>
-            <div className="research-item-wrapper" 
-            onMouseOver={() => imageDarken('research-panels research-panel_3')}
-            onMouseLeave={() => imageLighten('research-panels research-panel_3')}>
-                <div className="research-panels research-panel_3"/>
-                <div className="img-text-wrapper">
-                        <div className="subtitle">
-                        Rapid Review of Task-Based Outcomes using Low-Intensity Focused Transcranial Ultrasound Neuromodulation on Humans and Primates
-                        <p>January 2026 (Under Review)</p>
-                        </div>
-                </div>
             </div>
         </div>
 
