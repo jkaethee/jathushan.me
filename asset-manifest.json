@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jathushan.me/static/css/main.43a22cb7.css",
-    "main.js": "/jathushan.me/static/js/main.8a0edc40.js",
+    "main.js": "/jathushan.me/static/js/main.d4bde450.js",
     "static/media/silent.jpg": "/jathushan.me/static/media/silent.6532ac467ea0a5e71cac.jpg",
     "static/media/research_3.jpg": "/jathushan.me/static/media/research_3.f98c572d46a32b044017.jpg",
     "static/media/telerehab.jpg": "/jathushan.me/static/media/telerehab.015c5efc8590f0ffa7ca.jpg",
@@ -45,18 +45,18 @@
     "static/media/whisper.jpg": "/jathushan.me/static/media/whisper.2b90229f0e508999f2ef.jpg",
     "static/media/immunity.png": "/jathushan.me/static/media/immunity.996de6e5e24d82be5d0a.png",
     "static/media/wizkid.jpg": "/jathushan.me/static/media/wizkid.872d3aeb1b29f748a614.jpg",
+    "static/media/resume.pdf": "/jathushan.me/static/media/resume.891d4f5d1e49b840908f.pdf",
     "static/media/weather app.png": "/jathushan.me/static/media/weather app.d8962cbd580a06c9bdcc.png",
-    "static/media/resume_2024.pdf": "/jathushan.me/static/media/resume_2024.0a205650380cfdd141f7.pdf",
     "static/media/anniversary.png": "/jathushan.me/static/media/anniversary.8fca7c62954ef2a45837.png",
     "static/media/film-stock-photo.jpg": "/jathushan.me/static/media/film-stock-photo.4d11b738d5022496a9c5.jpg",
     "static/media/stormzy.jpg": "/jathushan.me/static/media/stormzy.a78d9c4f7b5d716a7b6c.jpg",
     "static/media/case.jpg": "/jathushan.me/static/media/case.e71374ee2ac4d881fb08.jpg",
     "index.html": "/jathushan.me/index.html",
     "main.43a22cb7.css.map": "/jathushan.me/static/css/main.43a22cb7.css.map",
-    "main.8a0edc40.js.map": "/jathushan.me/static/js/main.8a0edc40.js.map"
+    "main.d4bde450.js.map": "/jathushan.me/static/js/main.d4bde450.js.map"
   },
   "entrypoints": [
     "static/css/main.43a22cb7.css",
-    "static/js/main.8a0edc40.js"
+    "static/js/main.d4bde450.js"
   ]
 }
