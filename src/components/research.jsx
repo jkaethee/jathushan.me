@@ -62,7 +62,7 @@ function ResearchPage() {
                 <div className="research-item-wrapper" 
                 onMouseOver={() => imageDarken('research-panels research-unpub-panel_1')}
                 onMouseLeave={() => imageLighten('research-panels research-unpub-panel_1')}>
-                    {/* <a href="https://github.com/jkaethee/UI-PRMD_Exercise_Model" target="_blank" rel="noopener noreferrer"> */}
+                    <a href="https://www.researchgate.net/publication/400084390_Exploring_EEG-driven_brain-heart_coupling_across_sleep_stages_in_individuals_with_sleep_disorders" target="_blank" rel="noopener noreferrer">
                         <div className="research-panels research-unpub-panel_1"/>
                         <div className="img-text-wrapper">
                                 <div className="subtitle">
@@ -70,7 +70,7 @@ function ResearchPage() {
                                     <p>April 2025</p>
                                 </div>
                         </div>
-                    {/* </a> */}
+                    </a>
                 </div>
                 <div className="research-item-wrapper" 
                 onMouseOver={() => imageDarken('research-panels research-unpub-panel_2')}
